@@ -20,7 +20,7 @@ GIT
 
 GIT
   remote: http://github.com/baracek/spree-enhanced-option-types.git
-  revision: 18642c97f275ed760f97dfd1e5dd547175846a36
+  revision: 048ee450f89df298b988a48e678578c4bb4f1749
   specs:
     spree_enhanced_option_types (0.60.1)
       spree_core (>= 0.60.1)
