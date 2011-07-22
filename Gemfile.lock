@@ -20,14 +20,14 @@ GIT
 
 GIT
   remote: http://github.com/baracek/spree-enhanced-option-types.git
-  revision: 048ee450f89df298b988a48e678578c4bb4f1749
+  revision: 1b1d9c2d6f45f8dc2d1fefae80e77637ecef114a
   specs:
     spree_enhanced_option_types (0.60.1)
       spree_core (>= 0.60.1)
 
 GIT
   remote: http://github.com/baracek/spree-print-invoice.git
-  revision: 330e7ee991a823ca9c7dee24ce3e98e424d42578
+  revision: 111d94bc80660cec85c8b27be84d5f8d39184634
   specs:
     spree_print_invoice (0.60.1)
       prawn (= 0.8.4)
@@ -43,7 +43,7 @@ GIT
 
 GIT
   remote: http://github.com/baracek/spree_print_packingslip.git
-  revision: 121c86e3da0222fba1f1b23ab049a922e1afeca5
+  revision: c735138ce5657665ecf540d753dcc3d6809953f4
   specs:
     spree_print_packingslip (0.60.1)
       prawn (= 0.8.4)
@@ -52,7 +52,7 @@ GIT
 
 GIT
   remote: http://github.com/baracek/spree_print_quote.git
-  revision: 2a202d3e9a71a517a8a7b657cf5175518e2d73d9
+  revision: e39c408a25668a3bdc9c6e9715e21774e82cbf20
   specs:
     spree_print_quote (0.60.1)
       prawn (= 0.8.4)
