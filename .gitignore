@@ -2,5 +2,6 @@
 .redcar
 spree_functional_ergonomics
 db/*.sqlite3
+config/database.yml
 log/*.log
 tmp/

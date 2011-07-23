@@ -52,4 +52,4 @@ gem "spree_print_quote", :git => 'http://github.com/baracek/spree_print_quote.gi
 gem "spree_print_packingslip", :git => 'http://github.com/baracek/spree_print_packingslip.git'
 
 gem "spree_ckeditor", :git => 'http://github.com/baracek/spree-ckeditor.git'
-gem "spree_functional_ergonomics", :path => "spree_functional_ergonomics", :require => "spree_functional_ergonomics"
+gem "spree_functional_ergonomics", :git => 'git://github.com/baracek/spree_functional_ergonomics.git'

@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/baracek/spree_functional_ergonomics.git
+  revision: 4e3d64c87799fdd83c402909aab12603aea7624d
+  specs:
+    spree_functional_ergonomics (0.60.1)
+      spree_core (>= 0.60.1)
+
+GIT
   remote: git://github.com/rails/prototype_legacy_helper.git
   revision: a2cd95c3e3c1a4f7a9566efdab5ce59c886cb05f
   specs:
@@ -20,7 +27,7 @@ GIT
 
 GIT
   remote: http://github.com/baracek/spree-enhanced-option-types.git
-  revision: 1b1d9c2d6f45f8dc2d1fefae80e77637ecef114a
+  revision: 5d4ca6ca0f1964dbc8eb3ae8c79506f6fd3eedea
   specs:
     spree_enhanced_option_types (0.60.1)
       spree_core (>= 0.60.1)
@@ -73,12 +80,6 @@ GIT
     spree_active_shipping (1.0.3)
       active_shipping (= 0.9.13)
       spree_core (>= 0.30.1)
-
-PATH
-  remote: spree_functional_ergonomics
-  specs:
-    spree_functional_ergonomics (0.60.1)
-      spree_core (>= 0.60.1)
 
 GEM
   remote: http://rubygems.org/
