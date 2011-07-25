@@ -30,26 +30,29 @@ gem 'mysql'
 #   gem 'webrat'
 # end
 
-gem 'active_shipping', :git=>'http://github.com/Shopify/active_shipping.git'
+gem 'active_shipping', :git=>'git://github.com/Shopify/active_shipping.git'
 
 gem 'spree', '0.60.1'
 
-gem 'spree_active_shipping', :git=>'http://github.com/spree/spree_active_shipping.git'
+gem 'spree_active_shipping', :git=>'git://github.com/spree/spree_active_shipping.git'
 
-gem 'spree_elavon_gateway', :git=>'http://github.com/baracek/spree_elavon_gateway.git'
+gem 'spree_elavon_gateway', :git=>'git://github.com/baracek/spree_elavon_gateway.git'
 
 #this has to with spree_enhanced_option_types because it uses old ajax code
 gem 'prototype_legacy_helper', '0.0.0', :git => 'git://github.com/rails/prototype_legacy_helper.git'
 
-gem "spree_enhanced_option_types", :git => 'http://github.com/baracek/spree-enhanced-option-types.git'
+gem "spree_enhanced_option_types", :git => 'git://github.com/baracek/spree-enhanced-option-types.git'
 
-gem "spree_print_settings", :git => 'http://github.com/baracek/spree_print_settings.git'
+gem "spree_print_settings", :git => 'git://github.com/baracek/spree_print_settings.git'
 
-gem "spree_print_invoice", :git => 'http://github.com/baracek/spree-print-invoice.git'
+gem "spree_print_invoice", :git => 'git://github.com/baracek/spree-print-invoice.git'
 
-gem "spree_print_quote", :git => 'http://github.com/baracek/spree_print_quote.git'
+gem "spree_print_quote", :git => 'git://github.com/baracek/spree_print_quote.git'
 
-gem "spree_print_packingslip", :git => 'http://github.com/baracek/spree_print_packingslip.git'
+gem "spree_print_packingslip", :git => 'git://github.com/baracek/spree_print_packingslip.git'
 
-gem "spree_ckeditor", :git => 'http://github.com/baracek/spree-ckeditor.git'
+gem "spree_ckeditor", :git => 'git://github.com/baracek/spree-ckeditor.git'
+
 gem "spree_functional_ergonomics", :git => 'git://github.com/baracek/spree_functional_ergonomics.git'
+
+gem "spree_batch_products", "0.50.0", :git => 'git://github.com/minustehbare/spree-batch-products.git', :branch => "0-60-stable"

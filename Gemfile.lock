@@ -1,39 +1,26 @@
 GIT
-  remote: git://github.com/baracek/spree_functional_ergonomics.git
-  revision: 4e3d64c87799fdd83c402909aab12603aea7624d
-  specs:
-    spree_functional_ergonomics (0.60.1)
-      spree_core (>= 0.60.1)
-
-GIT
-  remote: git://github.com/rails/prototype_legacy_helper.git
-  revision: a2cd95c3e3c1a4f7a9566efdab5ce59c886cb05f
-  specs:
-    prototype_legacy_helper (0.0.0)
-
-GIT
-  remote: http://github.com/Shopify/active_shipping.git
+  remote: git://github.com/Shopify/active_shipping.git
   revision: 6be70c68574a9e420493ec628599da9cd9e84985
   specs:
     active_shipping (0.9.13)
       activesupport (>= 2.3.5)
 
 GIT
-  remote: http://github.com/baracek/spree-ckeditor.git
+  remote: git://github.com/baracek/spree-ckeditor.git
   revision: 713e5ed28498f56f9100b9d03b49eafd9d669fab
   specs:
     spree_ckeditor (0.60.1)
       spree_core (>= 0.60.1)
 
 GIT
-  remote: http://github.com/baracek/spree-enhanced-option-types.git
+  remote: git://github.com/baracek/spree-enhanced-option-types.git
   revision: 5d4ca6ca0f1964dbc8eb3ae8c79506f6fd3eedea
   specs:
     spree_enhanced_option_types (0.60.1)
       spree_core (>= 0.60.1)
 
 GIT
-  remote: http://github.com/baracek/spree-print-invoice.git
+  remote: git://github.com/baracek/spree-print-invoice.git
   revision: 111d94bc80660cec85c8b27be84d5f8d39184634
   specs:
     spree_print_invoice (0.60.1)
@@ -42,14 +29,21 @@ GIT
       spree_print_settings (>= 0.60.1)
 
 GIT
-  remote: http://github.com/baracek/spree_elavon_gateway.git
+  remote: git://github.com/baracek/spree_elavon_gateway.git
   revision: 802ab1e3bf311003b9ec25abec9855b4e43df3a6
   specs:
     spree_elavon_gateway (0.50.0)
       spree_core (>= 0.50.0)
 
 GIT
-  remote: http://github.com/baracek/spree_print_packingslip.git
+  remote: git://github.com/baracek/spree_functional_ergonomics.git
+  revision: 4e3d64c87799fdd83c402909aab12603aea7624d
+  specs:
+    spree_functional_ergonomics (0.60.1)
+      spree_core (>= 0.60.1)
+
+GIT
+  remote: git://github.com/baracek/spree_print_packingslip.git
   revision: c735138ce5657665ecf540d753dcc3d6809953f4
   specs:
     spree_print_packingslip (0.60.1)
@@ -58,7 +52,7 @@ GIT
       spree_print_settings (>= 0.60.1)
 
 GIT
-  remote: http://github.com/baracek/spree_print_quote.git
+  remote: git://github.com/baracek/spree_print_quote.git
   revision: e39c408a25668a3bdc9c6e9715e21774e82cbf20
   specs:
     spree_print_quote (0.60.1)
@@ -67,14 +61,29 @@ GIT
       spree_print_settings (>= 0.60.1)
 
 GIT
-  remote: http://github.com/baracek/spree_print_settings.git
+  remote: git://github.com/baracek/spree_print_settings.git
   revision: 2dabb7e73940e1fe1a74e39939d1b12abcc96a38
   specs:
     spree_print_settings (0.60.1)
       spree_core (>= 0.60.1)
 
 GIT
-  remote: http://github.com/spree/spree_active_shipping.git
+  remote: git://github.com/minustehbare/spree-batch-products.git
+  revision: 41882c6d7e5b3191dd0d2e9f14610ee11033161a
+  branch: 0-60-stable
+  specs:
+    spree_batch_products (0.50.0)
+      spreadsheet (>= 0.6.5.4)
+      spree_core (>= 0.60.0)
+
+GIT
+  remote: git://github.com/rails/prototype_legacy_helper.git
+  revision: a2cd95c3e3c1a4f7a9566efdab5ce59c886cb05f
+  specs:
+    prototype_legacy_helper (0.0.0)
+
+GIT
+  remote: git://github.com/spree/spree_active_shipping.git
   revision: c2533e0d608e3fca5fce68b7079310c09de208f2
   specs:
     spree_active_shipping (1.0.3)
@@ -188,6 +197,9 @@ GEM
     rd_resource_controller (1.0.1)
     rd_unobtrusive_date_picker (0.1.0)
     rdoc (3.8)
+    ruby-ole (1.2.11.1)
+    spreadsheet (0.6.5.7)
+      ruby-ole (>= 1.0)
     spree (0.60.1)
       spree_api (= 0.60.1)
       spree_auth (= 0.60.1)
@@ -242,8 +254,10 @@ DEPENDENCIES
   mysql
   prototype_legacy_helper (= 0.0.0)!
   rails (= 3.0.9)
+  spreadsheet
   spree (= 0.60.1)
   spree_active_shipping!
+  spree_batch_products (= 0.50.0)!
   spree_ckeditor!
   spree_elavon_gateway!
   spree_enhanced_option_types!
