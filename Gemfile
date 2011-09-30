@@ -32,7 +32,7 @@ gem 'mysql'
 
 gem 'active_shipping', :git=>'git://github.com/Shopify/active_shipping.git'
 
-gem 'spree', '0.60.1'
+gem 'spree', :git=>'git://github.com/baracek/spree.git', :branch=>'patch-1'
 
 gem 'spree_active_shipping', :git=>'git://github.com/spree/spree_active_shipping.git'
 
