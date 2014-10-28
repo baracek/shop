@@ -1,58 +1,58 @@
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 
-gem 'rails', '3.0.9'
+# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'rails', '4.0.4'
 
-# Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
+# Use sqlite3 as the database for Active Record
+gem 'sqlite3'
 
-gem 'mysql'
+# Use SCSS for stylesheets
+gem 'sass-rails', '~> 4.0.2'
 
-# Use unicorn as the web server
+# Use Uglifier as compressor for JavaScript assets
+gem 'uglifier', '>= 1.3.0'
+
+# Use CoffeeScript for .js.coffee assets and views
+gem 'coffee-rails', '~> 4.0.0'
+
+# See https://github.com/sstephenson/execjs#readme for more supported runtimes
+# gem 'therubyracer', platforms: :ruby
+
+# Use jquery as the JavaScript library
+gem 'jquery-rails'
+
+# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
+gem 'turbolinks'
+
+# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
+gem 'jbuilder', '~> 1.2'
+
+group :doc do
+  # bundle exec rake doc:rails generates the API under doc/api.
+  gem 'sdoc', require: false
+end
+
+# Use ActiveModel has_secure_password
+# gem 'bcrypt', '~> 3.1.7'
+
+# Use unicorn as the app server
 # gem 'unicorn'
 
-# Deploy with Capistrano
-# gem 'capistrano'
+# Use Capistrano for deployment
+# gem 'capistrano', group: :development
 
-# To use debugger (ruby-debug for Ruby 1.8.7+, ruby-debug19 for Ruby 1.9.2+)
-# gem 'ruby-debug'
-# gem 'ruby-debug19', :require => 'ruby-debug'
+# Use debugger
+# gem 'debugger', group: [:development, :test]
 
-# Bundle the extra gems:
-# gem 'bj'
-# gem 'nokogiri'
-# gem 'sqlite3-ruby', :require => 'sqlite3'
-# gem 'aws-s3', :require => 'aws/s3'
-
-# Bundle gems for the local environment. Make sure to
-# put test-only gems in this group so their generators
-# and rake tasks are available in development mode:
-# group :development, :test do
-#   gem 'webrat'
-# end
-
-gem 'active_shipping', :git=>'git://github.com/Shopify/active_shipping.git'
-
-gem 'spree', :git=>'git://github.com/baracek/spree.git', :branch=>'patch-1'
-
-gem 'spree_active_shipping', :git=>'git://github.com/spree/spree_active_shipping.git'
-
-gem 'spree_elavon_gateway', :git=>'git://github.com/baracek/spree_elavon_gateway.git'
-
-#this has to with spree_enhanced_option_types because it uses old ajax code
-gem 'prototype_legacy_helper', '0.0.0', :git => 'git://github.com/rails/prototype_legacy_helper.git'
-
-gem "spree_enhanced_option_types", :git => 'git://github.com/baracek/spree-enhanced-option-types.git'
-
-gem "spree_print_settings", :git => 'git://github.com/baracek/spree_print_settings.git'
-
-gem "spree_print_invoice", :git => 'git://github.com/baracek/spree-print-invoice.git'
-
-gem "spree_print_quote", :git => 'git://github.com/baracek/spree_print_quote.git'
-
-gem "spree_print_packingslip", :git => 'git://github.com/baracek/spree_print_packingslip.git'
-
-gem "spree_ckeditor", :git => 'git://github.com/baracek/spree-ckeditor.git'
-
-gem "spree_functional_ergonomics", :git => 'git://github.com/baracek/spree_functional_ergonomics.git'
-
-gem "spree_batch_products", "0.50.0", :git => 'git://github.com/minustehbare/spree-batch-products.git', :branch => "0-60-stable"
+gem 'spree', '2.2.1'
+gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-2-stable'
+gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise.git', :branch => '2-2-stable'
+gem 'money', '6.0.1'
+gem 'spree_elavon_gateway', :path=> '../Documents/Aptana Studio 3 Workspace/spree_elavon_gateway'
+gem 'spree_active_shipping', :git => 'https://github.com/baracek/spree_active_shipping.git', :branch => '2-2-stable'
+gem 'spree_functional_ergonomics', :path=> '../Documents/Aptana Studio 3 Workspace/spree_functional_ergonomics'
+gem 'spree_editor', :git=>'https://github.com/spree-contrib/spree_editor.git', :branch=>'2-2-stable'
+gem 'spree_print_settings', :path=> '../Documents/Aptana Studio 3 Workspace/spree_print_settings'
+gem 'spree_print_invoice', :path=> '../Documents/Aptana Studio 3 Workspace/spree_print_invoice'
+gem 'spree_print_quote', :path=> '../Documents/Aptana Studio 3 Workspace/spree_print_quote'
+gem 'prawn', '0.8.4'
