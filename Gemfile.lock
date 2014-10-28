@@ -1,4 +1,13 @@
 GIT
+  remote: https://github.com/baracek/spree-print-invoice
+  revision: 3625ece70d131f689a11b68c19e3353f3c54ed24
+  specs:
+    spree_print_invoice (2.2.1)
+      prawn (= 0.8.4)
+      spree_core (~> 2.2.1)
+      spree_print_settings (>= 2.2.1)
+
+GIT
   remote: https://github.com/baracek/spree_active_shipping.git
   revision: b057470a3eca2daa9efe00876c2eb662d79b7cd1
   branch: 2-2-stable
@@ -6,6 +15,30 @@ GIT
     spree_active_shipping (2.2.0)
       active_shipping (~> 0.11.0)
       spree_core (~> 2.2.0)
+
+GIT
+  remote: https://github.com/baracek/spree_elavon_gateway
+  revision: 9c7e2b4b07a828fb1e3817746a262d593dc278c2
+  specs:
+    spree_elavon_gateway (2.2.1)
+      spree_core (~> 2.2.1)
+
+GIT
+  remote: https://github.com/baracek/spree_print_quote
+  revision: bf48780d9464b80bdaa81bef0e2968d81d091ebe
+  specs:
+    spree_print_quote (2.2.1)
+      prawn (= 0.8.4)
+      spree_core (~> 2.2.1)
+      spree_print_settings (>= 2.2.1)
+
+GIT
+  remote: https://github.com/baracek/spree_print_settings
+  revision: 7746e8cbd2b0b7707b921a7b5a9df6d3ced4fc26
+  specs:
+    spree_print_settings (2.2.1)
+      prawn (= 0.8.4)
+      spree_core (~> 2.2.1)
 
 GIT
   remote: https://github.com/spree-contrib/spree_editor.git
@@ -37,41 +70,6 @@ GIT
   specs:
     spree_gateway (2.2.1)
       spree_core (~> 2.2.0)
-
-PATH
-  remote: ../Documents/Aptana Studio 3 Workspace/spree_elavon_gateway
-  specs:
-    spree_elavon_gateway (2.2.1)
-      spree_core (~> 2.2.1)
-
-PATH
-  remote: ../Documents/Aptana Studio 3 Workspace/spree_functional_ergonomics
-  specs:
-    spree_functional_ergonomics (2.2.1)
-      spree_core (~> 2.2.1)
-
-PATH
-  remote: ../Documents/Aptana Studio 3 Workspace/spree_print_invoice
-  specs:
-    spree_print_invoice (2.2.1)
-      prawn (= 0.8.4)
-      spree_core (~> 2.2.1)
-      spree_print_settings (>= 2.2.1)
-
-PATH
-  remote: ../Documents/Aptana Studio 3 Workspace/spree_print_quote
-  specs:
-    spree_print_quote (2.2.1)
-      prawn (= 0.8.4)
-      spree_core (~> 2.2.1)
-      spree_print_settings (>= 2.2.1)
-
-PATH
-  remote: ../Documents/Aptana Studio 3 Workspace/spree_print_settings
-  specs:
-    spree_print_settings (2.2.1)
-      prawn (= 0.8.4)
-      spree_core (~> 2.2.1)
 
 GEM
   remote: https://rubygems.org/
@@ -354,7 +352,6 @@ DEPENDENCIES
   spree_auth_devise!
   spree_editor!
   spree_elavon_gateway!
-  spree_functional_ergonomics!
   spree_gateway!
   spree_print_invoice!
   spree_print_quote!
